@@ -6,4 +6,5 @@ This project uses HTML, CSS, and JavaScript to create a website for a meme gener
 **Qualities:**
 
 1.API Integration: Pulls popular memes from a meme API and shows them.
+
 2.Easy Navigation: You don't need to customize this to browse through memes.

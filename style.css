@@ -1,68 +1,77 @@
+/* Style for the entire body of the webpage */
 body {
-  background-color: #030009;
+  background-color: #030009; /* Dark background color */
   margin: 0;
   padding: 0;
-  font-family: 'Arial', sans-serif;
-  color: #ffffff;
+  font-family: 'Arial', sans-serif; /* Default font for the body */
+  color: #ffffff; /* White text color */
 }
 
+/* Style for the meme generator container */
 .meme_generator {
-  font-family: 'Times New Roman', Times, serif, sans-serif;
-  text-align: center;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #111;
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  font-family: 'Times New Roman', Times, serif, sans-serif; /* Font for the meme generator content */
+  text-align: center; /* Center-align text */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Padding inside the container */
+  background-color: #111; /* Dark background color for the container */
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Shadow effect for a 3D appearance */
 }
 
+/* Style for the meme image */
 .meme_generator img {
-  height: 450px;
-  object-fit: cover;
-  border-radius: 12px;
-  margin-bottom: 20px;
+  height: 450px; /* Fixed height for the image */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+  border-radius: 12px; /* Rounded corners for the image */
+  margin-bottom: 20px; /* Space below the image */
 }
 
+/* Style for the generate meme button */
 .meme_generator .generate_meme_button {
-  padding: 10px 30px;
-  border: 6px solid #000;
-  border-radius: 12px;
-  margin: 24px 0;
-  font-size: 20px;
-  font-weight: 100;
-  color: #000;
-  background: #fff;
-  cursor: pointer;
-  transition: all 800ms ease;
-  
+  padding: 10px 30px; /* Padding inside the button */
+  border: 6px solid #000; /* Thick black border */
+  border-radius: 12px; /* Rounded corners */
+  margin: 24px 0; /* Vertical margin for spacing */
+  font-size: 20px; /* Font size for the button text */
+  font-weight: 100; /* Light font weight */
+  color: #000; /* Black text color */
+  background: #fff; /* White background color */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: all 800ms ease; /* Smooth transition for all properties */
 }
 
+/* Hover effect for the generate meme button */
 .meme_generator .generate_meme_button:hover {
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 0 0 10px rgba(0, 128, 0, 0.8), 0 0 20px rgba(0, 0, 255, 0.8);
-  padding: 12px 40px;
-  border: 10px solid rgb(0, 0, 0);
-  letter-spacing: 4px;
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 
+              0 0 10px rgba(0, 128, 0, 0.8), 
+              0 0 20px rgba(0, 0, 255, 0.8); /* Glowing multi-colored shadow */
+  padding: 12px 40px; /* Increase padding */
+  border: 10px solid rgb(0, 0, 0); /* Thicker border */
+  letter-spacing: 4px; /* Increase letter spacing */
+  background-color: rgb(255, 255, 255); /* Ensure background is white */
+  color: rgb(0, 0, 0); /* Ensure text color is black */
 }
 
+/* Style for the meme author text */
 .meme_generator .meme_author {
-  margin: 10px;
-  color: rgb(255, 255, 255);
-  font-style: italic;
-  font-size: 16px;
+  margin: 10px; /* Margin around the author text */
+  color: rgb(255, 255, 255); /* White text color */
+  font-style: italic; /* Italic text */
+  font-size: 16px; /* Font size for the author text */
 }
 
+/* Style for the meme title text */
 .meme_generator .meme_title {
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom: 16px;
-  color: #ffffff;
+  font-size: 30px; /* Large font size for the title */
+  font-weight: bold; /* Bold text */
+  margin-bottom: 16px; /* Space below the title */
+  color: #ffffff; /* White text color */
 }
 
+/* Style for the meme description text */
 .meme_generator .meme_description {
-  font-size: 18px;
-  margin-bottom: 16px;
-  color: #d3d3d3;
-  line-height: 1.6;
+  font-size: 18px; /* Font size for the description */
+  margin-bottom: 16px; /* Space below the description */
+  color: #d3d3d3; /* Light gray text color */
+  line-height: 1.6; /* Increase line height for better readability */
 }
